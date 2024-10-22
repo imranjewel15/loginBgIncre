@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.formWrapper {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 5px #fff;
+}
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 10px;
+  filter: blur(0.5px);
+}
+.registrationFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(modern-minimalist-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 20px;
+}
+.form {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: transparent;
+}
+input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #797777;
+  border-radius: 5px;
+  
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+.item {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#errorMsgPassword{
+  font-size: 16px;
+  color: red;
+  display: block;
+  text-align: left;
+  
+}
+input::placeholder {
+  color: #fff;
+}
+label {
+  display: block;
+
+  color: #fff;
+  font-size: 20px;
+ 
+  border-radius: 5px;
+  background-origin: ;
+ 
+}
+
+#errorMsgEmail{
+    font-size: 16px;
+    color: red;
+    display: block;
+    text-align: left;
+}
+.Btn{
+  text-align: center;
+}
+.BtnSty{
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: green;
+  transition: 0.6s;
+}
+.BtnSty:hover{
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: green;
+  background-color: #fff;
+  cursor: pointer;
+}
+.itemWrapper{
+  position: relative;
+}
+.eyeClose, .eyeShow{
+  position: absolute;
+  top: 55%;
+  right: 15px;
+  color: #fff;
+
+}
+#colorBtn{
+  padding: 10px 20px;
+  border: none;
+  background: #212121;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 0 0 10px rgb(245, 245, 245);
+  font-weight: 500;
+}
+#colorBtn:hover{
+  color: #212121;
+  background-color: #fff;
+}
+.increDecre{
+  padding: 60px 40px;
+  background-color: #212121;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 10px;
+}
+#increment, #decrement{
+  font-size: 20px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#decrement{
+  background-color: red;
+  margin-top: 20px;
+
+}
+h2{
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.animate{
+animation:  clickAnimation 0.2s ease-in;
+}
+@keyframes clickAnimation {
+  0%{
+    scale: 100%;
+  }
+  50%{
+    scale: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+  }
+  100%{
+    scale: 100%;
+  }
+}

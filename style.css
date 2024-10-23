@@ -164,3 +164,110 @@ animation:  clickAnimation 0.2s ease-in;
     scale: 100%;
   }
 }
+
+@media (min-width:320px) and (max-width:575px) {
+  .registrationFormWrapper {
+    flex-direction: column;
+    background: #212121;
+    margin: 0 10px;
+}
+.form {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: transparent;
+  margin: 0 -13px;
+}
+#colorBtn {
+  padding: 9px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.increDecre {
+  padding: 20px 13px;
+  background-color: #212121;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: initial;
+  width: auto;
+}
+#increment, #decrement {
+  font-size: 18px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+#decrement {
+  margin-top: 0;
+  background-color: red;
+}
+h2 {
+  padding: 20px;
+}
+input {
+  width: auto;
+}
+#colorChange{
+  width: auto;
+  margin: 20px ;
+}
+}
+@media (min-width:576px) and (max-width:787px) {
+  .registrationFormWrapper {
+    flex-direction: column;
+    background: #212121;
+    margin: 0 10px;
+}
+.form {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: transparent;
+  margin: 0 -13px;
+}
+#colorBtn {
+  padding: 9px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.increDecre {
+  padding: 20px 13px;
+  background-color: #212121;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: initial;
+  width: auto;
+}
+#increment, #decrement {
+  font-size: 18px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+#decrement {
+  margin-top: 0;
+  background-color: red;
+}
+h2 {
+  padding: 20px;
+}
+input {
+  width: auto;
+}
+#colorChange{
+  width: auto;
+  margin: 20px ;
+}
+}
